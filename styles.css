@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+body {
+}
+
+.header {
+    background-color: black;
+    height: 150px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    gap: 20px;
+}
+
+.logo {
+    height: 150px;
+    width: 175px;
+    cursor: pointer;
+}
+
+.title-logo {
+    height: 100px;
+    width: 250px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navigation {
+    margin-left: auto;
+    display: grid;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.login-container {
+    padding: 20px 25px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+
+
+
+
+/* -------- schedule -------- */
+
+
+.main-container {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    background-color: #5fb7cf;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.main-container img {
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px gray;
+    height: 60%;
+}
+
+.schedule-form-header {
+    height: 75px;
+}
+
+.schedule-form {
+    width: 550px; 
+    height: 600px;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: center;
+    display: grid;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.schedule-form h1 {
+    font-family: "SUSE Mono", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 10px;
+    color: #1F253C;
+    border-bottom: 2px solid black;
+}
+
+.credit-card {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.credit-card img {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
+/* -------- footer -------- */
+
+.footer {
+    background-color: black;
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}
